@@ -1,7 +1,7 @@
 import { CoffeeFactory } from "./factory";
 import { CoffeeType } from "./coffeeType";
 import { Coffee } from "./coffee";
-import { IPatternDemo } from "../../pattern";
+import IPatternDemo from "../../pattern";
 
 class SimpleFactoryPattern implements IPatternDemo {
     public show(): void {

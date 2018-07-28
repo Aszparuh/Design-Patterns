@@ -1,5 +1,6 @@
 import SimpleFactoryPattern from "./CreationalPatterns/SimpleFactory/simpleFactoryPattern";
-import { IPatternDemo } from "./pattern";
+import IPatternDemo from "./pattern";
+import FactoryMethodDemo from "./CreationalPatterns/FactoryMethod/factoryMethodDemo";
 
 declare var require: (moduleId: string) => any;
 declare var process: any;
@@ -54,6 +55,7 @@ namespace Patterns {
         rl.question("Which pattern would you like to check?   ", function (answer: string): void {
             switch (+answer) {
                 case 1: show(new SimpleFactoryPattern()); break;
+                case 3: show(new FactoryMethodDemo()); break;
                 default: break;
             }
 

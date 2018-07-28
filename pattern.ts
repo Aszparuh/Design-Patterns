@@ -1,3 +1,5 @@
-export interface IPatternDemo {
+interface IPatternDemo {
     show(): void;
 }
+
+export default IPatternDemo;

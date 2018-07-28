@@ -15,6 +15,7 @@ Deal with initializing and configuring classes and objects
 ---
 
 ### Factory Method
+Provides an interface for creating objects in superclass, but allow subclasses to alter the type of objects that will be created.
 1. Objects are created by separate method(s)
 2. Produces objects as normal factory
     + Adds an interface to the simple factory
