@@ -20,3 +20,14 @@ Provides an interface for creating objects in superclass, but allow subclasses t
 2. Produces objects as normal factory
     + Adds an interface to the simple factory
     + Add new factories and classes without breaking Open/Closed Principle
+
+---
+
+### Abstract Factory
+Lets you produce families of related objects without specifying their concrete classes.
+1. Abstraction in object creation
+    + Create a family of related objects
+2. The Abstract Factory Pattern defines interface for creating sets of linked objects
+    + Without knowing their concrete classes
+3. Used in systems that are frequently changed
+4. Provides flexible mechanism for replacement of different sets
