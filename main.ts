@@ -1,4 +1,5 @@
 import SimpleFactoryPattern from "./CreationalPatterns/SimpleFactory/simpleFactoryPattern";
+import AbstractFactoryPattern from "./CreationalPatterns/AbstractFactory/abstractFactoryDemo";
 import IPatternDemo from "./pattern";
 import FactoryMethodDemo from "./CreationalPatterns/FactoryMethod/factoryMethodDemo";
 
@@ -55,6 +56,7 @@ namespace Patterns {
         rl.question("Which pattern would you like to check?   ", function (answer: string): void {
             switch (+answer) {
                 case 1: show(new SimpleFactoryPattern()); break;
+                case 2: show(new AbstractFactoryPattern()); break;
                 case 3: show(new FactoryMethodDemo()); break;
                 default: break;
             }
