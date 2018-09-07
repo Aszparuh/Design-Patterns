@@ -11,7 +11,9 @@
             "program": "${workspaceFolder}/build/main.js",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
-            ]
+            ],
+            "console":"integratedTerminal",
+            "preLaunchTask": "build"
         }
     ]
 }
