@@ -11,9 +11,9 @@ abstract class Pizza {
 
     public Show(): string {
         let result: string = "";
-        result.concat(this.Name);
-        result.concat("/n");
-        result.concat(this.ingredients.join(", "));
+        result = result.concat(this.Name);
+        result = result.concat("\n");
+        result = result.concat(this.ingredients.join(", "));
         return result;
     }
 }

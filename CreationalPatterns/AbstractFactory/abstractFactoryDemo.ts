@@ -10,11 +10,16 @@ class AbstractFactoryPattern implements IPatternDemo {
         const hutCalzone: Calzone = factoryHut.CreateCalzone();
 
         console.log(hutCalzone.Show());
+        console.log("------------------------------");
         console.log(factoryHut.CreateCheesePizza().Show());
+        console.log("------------------------------");
         console.log(factoryHut.CreatePepperoniPizza().Show());
         console.log("------------------------------");
+        console.log("------------------------------");
         console.log(factoryDominos.CreateCalzone().Show());
+        console.log("------------------------------");
         console.log(factoryDominos.CreateCheesePizza().Show());
+        console.log("------------------------------");
         console.log(factoryDominos.CreatePepperoniPizza().Show());
     }
 }
