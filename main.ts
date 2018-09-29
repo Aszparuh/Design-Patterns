@@ -2,6 +2,7 @@ import SimpleFactoryPattern from "./CreationalPatterns/SimpleFactory/simpleFacto
 import AbstractFactoryPattern from "./CreationalPatterns/AbstractFactory/abstractFactoryDemo";
 import IPatternDemo from "./pattern";
 import FactoryMethodDemo from "./CreationalPatterns/FactoryMethod/factoryMethodDemo";
+import BuilderPatternDemo from "./CreationalPatterns/Builder/BuilderPatternDemo";
 
 declare var require: (moduleId: string) => any;
 declare var process: any;
@@ -58,6 +59,7 @@ namespace Patterns {
                 case 1: show(new SimpleFactoryPattern()); break;
                 case 2: show(new AbstractFactoryPattern()); break;
                 case 3: show(new FactoryMethodDemo()); break;
+                case 4: show(new BuilderPatternDemo()); break;
                 default: break;
             }
 

@@ -31,3 +31,35 @@ Lets you produce families of related objects without specifying their concrete c
     + Without knowing their concrete classes
 3. Used in systems that are frequently changed
 4. Provides flexible mechanism for replacement of different sets
+
+---
+
+### Builder Pattern
+1. Separates the construction of a complex object (logic) from its representation (data) so that the same construction process can create different representations
+    + Separation of logic (multistep) and data
+    + Encapsulates the way an object is constructed
+2. Solves 3 problems
+    + Too many parameters
+    + Order dependent
+    + Different constructions
+3. Example: Building a XML document
+StringBuilder is not using the builder pattern
+4. Builder is used by Director
+5. Builder is implemented by
+a concrete builder
+6. Product is produced by the concrete builder
+7. The client uses director and concrete builder to produce product
+
+---
+
+### Summary
+1. Factory Method
+    + Used when the factory can easily create the entire object within one method call
+    + Common interface to group factories
+2. Abstract Factory
+    + Interface for creating families of related or dependent objects
+3. Builder
+    + When you need a lot of things to build an object
+    + When construction is order-dependent
+
+
