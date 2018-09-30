@@ -62,4 +62,15 @@ a concrete builder
     + When you need a lot of things to build an object
     + When construction is order-dependent
 
+---
+
+### Singleton
+1. The Singleton class is a class that is supposed to have only one (single) instance
+    + Access window manager / file system / console
+    + Access global application logger / DC / Mapper
+2. Sometimes Singleton is wrongly thought of as a global variable – it is not!
+3. Possible problems:
+    + Lazy loading (created when first needed)
+    + Thread-safe
+
 
