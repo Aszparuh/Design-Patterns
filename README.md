@@ -73,4 +73,14 @@ a concrete builder
     + Lazy loading (created when first needed)
     + Thread-safe
 
+---
 
+### Prototype
+1. Benefits
+    + It eliminates the (potentially expensive) overhead of initializing (construction) an object
+    + Hides the complexities of making new instances from the client
+2. Examples
+    + Copy of web resource (instead of downloading it every time it is needed)
+    + Getting copy of the current state of an object
+    + Hiding constructors and allowing cloning
+    + JavaScript is a prototypical language
