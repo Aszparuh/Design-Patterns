@@ -4,6 +4,7 @@ import IPatternDemo from "./pattern";
 import FactoryMethodDemo from "./CreationalPatterns/FactoryMethod/factoryMethodDemo";
 import BuilderPatternDemo from "./CreationalPatterns/Builder/BuilderPatternDemo";
 import SingletonPatternDemo from "./CreationalPatterns/Singleton/SingletonPatternDemo";
+import PrototypePatternDemo from "./CreationalPatterns/Prototype/PrototypePatternDemo";
 
 declare var require: (moduleId: string) => any;
 declare var process: any;
@@ -15,11 +16,12 @@ namespace Patterns {
 
     function printMenu(): void {
         var menu: string = "= Creational Patterns == \n" +
-            "  1: SimpleFactory \n" +
+            "  1: Simple Factory \n" +
             "  2: Abstract factory \n" +
             "  3: Factory method \n" +
             "  4: Builder \n" +
             "  5: Singleton \n\n" +
+            "  6: Prototype \n\n" +
             "= Structural Patterns == \n" +
             "  6: Adapter \n" +
             "  7: Bridge \n" +
@@ -62,6 +64,7 @@ namespace Patterns {
                 case 3: show(new FactoryMethodDemo()); break;
                 case 4: show(new BuilderPatternDemo()); break;
                 case 5: show(new SingletonPatternDemo()); break;
+                case 6: show(new PrototypePatternDemo()); break;
                 default: break;
             }
 
