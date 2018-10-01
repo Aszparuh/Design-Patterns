@@ -5,6 +5,7 @@ import FactoryMethodDemo from "./CreationalPatterns/FactoryMethod/factoryMethodD
 import BuilderPatternDemo from "./CreationalPatterns/Builder/BuilderPatternDemo";
 import SingletonPatternDemo from "./CreationalPatterns/Singleton/SingletonPatternDemo";
 import PrototypePatternDemo from "./CreationalPatterns/Prototype/PrototypePatternDemo";
+import FluentInterfacePatternDemo from "./CreationalPatterns/Fluent Interface/FluentInterfacePatternDemo";
 
 declare var require: (moduleId: string) => any;
 declare var process: any;
@@ -22,6 +23,7 @@ namespace Patterns {
             "  4: Builder \n" +
             "  5: Singleton \n\n" +
             "  6: Prototype \n\n" +
+            "  7: Fluent Interface \n\n" +
             "= Structural Patterns == \n" +
             "  6: Adapter \n" +
             "  7: Bridge \n" +
@@ -65,6 +67,7 @@ namespace Patterns {
                 case 4: show(new BuilderPatternDemo()); break;
                 case 5: show(new SingletonPatternDemo()); break;
                 case 6: show(new PrototypePatternDemo()); break;
+                case 7: show(new FluentInterfacePatternDemo()); break;
                 default: break;
             }
 

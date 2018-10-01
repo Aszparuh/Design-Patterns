@@ -84,3 +84,17 @@ a concrete builder
     + Getting copy of the current state of an object
     + Hiding constructors and allowing cloning
     + JavaScript is a prototypical language
+
+---
+
+### Fluent Interface
+1. An implementation of an object-oriented API that aims to provide more readable code
+    + Reduce syntactical noise
+    + More clearly express what the code does
+2. Implemented by using method cascading
+3. Real world examples:
+    + iostream library in C++
+    + cout << "text" << 5;
+    + KendoUI Wrappers
+    + LINQ in .NET
+    + Using extension methods
