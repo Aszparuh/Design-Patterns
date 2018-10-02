@@ -98,3 +98,20 @@ a concrete builder
     + KendoUI Wrappers
     + LINQ in .NET
     + Using extension methods
+
+---
+
+## Structural Patterns
+1. Describe ways to assemble objects to implement a new functionality
+2. Ease the design by identifying a simple way to realize relationships between entities
+3. These design patterns are all about class and object composition
+    + Structural class-creation patterns use inheritance to compose interfaces
+    + Structural object-patterns define ways to compose objects to obtain new functionality
+
+---
+### Facade Pattern
++ An object that provides a simplified interface to a larger body of code, such as class library
+    + Make a software library easier to use, understand and more readable
+    + Reduce dependencies of outside code
+        + Keeps the Principle of least knowledge
+    + Wrap a poorly designed APIs in a better one

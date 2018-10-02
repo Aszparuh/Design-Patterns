@@ -6,6 +6,7 @@ import BuilderPatternDemo from "./CreationalPatterns/Builder/BuilderPatternDemo"
 import SingletonPatternDemo from "./CreationalPatterns/Singleton/SingletonPatternDemo";
 import PrototypePatternDemo from "./CreationalPatterns/Prototype/PrototypePatternDemo";
 import FluentInterfacePatternDemo from "./CreationalPatterns/Fluent Interface/FluentInterfacePatternDemo";
+import FacadePatternDemo from "./StructuralPatterns/Facade/FacadePatternDemo";
 
 declare var require: (moduleId: string) => any;
 declare var process: any;
@@ -25,7 +26,7 @@ namespace Patterns {
             "  6: Prototype \n\n" +
             "  7: Fluent Interface \n\n" +
             "= Structural Patterns == \n" +
-            "  6: Adapter \n" +
+            "  8: Facade \n" +
             "  7: Bridge \n" +
             "  8: Composite \n" +
             "  9: Decorator \n" +
@@ -68,6 +69,7 @@ namespace Patterns {
                 case 5: show(new SingletonPatternDemo()); break;
                 case 6: show(new PrototypePatternDemo()); break;
                 case 7: show(new FluentInterfacePatternDemo()); break;
+                case 8: show(new FacadePatternDemo()); break;
                 default: break;
             }
 
