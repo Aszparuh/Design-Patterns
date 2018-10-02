@@ -109,9 +109,24 @@ a concrete builder
     + Structural object-patterns define ways to compose objects to obtain new functionality
 
 ---
-### Facade Pattern
+
+### Facade
 + An object that provides a simplified interface to a larger body of code, such as class library
     + Make a software library easier to use, understand and more readable
     + Reduce dependencies of outside code
         + Keeps the Principle of least knowledge
     + Wrap a poorly designed APIs in a better one
+
+---
+
+### Composite
+1. Composite Pattern allows to combine different types of objects in tree structures
+2. Gives the possibility to treat the same individual objects or groups of objects
+3. Used when
+    + We have different objects and we want to treat them the same way
+    + We want to present hierarchy of objects
+        + Tree-like structures
+4. Examples in .NET Framework
+    + Windows.Forms.Control and its derived classes
+    + System.Web.UI.Control and its derived classes
+    + System.Xml.XmlNode and its derived classes
